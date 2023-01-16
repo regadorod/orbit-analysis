@@ -1,0 +1,46 @@
+Documenting classes:
+    - Class name
+    - Requirements
+    - Arguments
+    - Methods
+    - Return
+
+
+===================================================
+                        class Spacecraft
+===================================================
+Requirements:
+    - Orbit determination
+    - Delta-V maneuver calculations
+    - Ploting
+
+Arguments:
+    - List COES
+    - dict Pertubations
+    - Mass
+
+===================================================
+                        module numerical_tools
+===================================================
+Requirements:
+    - Newtons bisection method
+    - 
+
+===================================================
+                        module orbit_calc
+===================================================
+Requirements:
+    - Calculate Julian Date (JD) given:
+        DD/MM/YYYY and UT 
+        JD and UT
+        
+    - Local Sideral Time (LST) calc
+    - Universal variables
+    - rv2coe
+    - coe2rv
+    - Coordinate transformations
+    - Calculate COEs
+    - Keplers
+    - Orbit transfers
+    - Pertubations options
+
