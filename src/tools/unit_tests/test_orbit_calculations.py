@@ -5,7 +5,7 @@ import orbit_calculations as oc
 
 
 def test_calc_JD():
-    JD = oc.calc_JD()
+    JD = oc.calc_JD("1:1:2010:11:12:4")
 
     assert JD == 2455197.96671 # 01/01/2010 11:12:4
 
